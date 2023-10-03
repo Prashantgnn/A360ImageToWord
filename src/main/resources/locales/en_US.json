@@ -1,0 +1,14 @@
+{
+	"label": "INFA - Image To Word Converter",
+	"description": "Provides action to convert image files in a folder into a word document.",
+
+	"Image To Word.label": "Image To Word Converter",
+	"Image To Word.description": "Converts image files (png, jpg, jpeg, gif, webp,) in a folder into a word document",
+	"Image To Word.node_label": "Converts image files in a folder into a word document",
+	"Image To Word.return_label": "Assign the output to String variable",
+	"Image To Word.return_label_description": "Returns the word document value as a String",
+	"Image To Word.inputFilePath.label": "Source folder",
+	"Image To Word.outputFilePath.label": "Destination folder"
+
+
+}

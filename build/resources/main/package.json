@@ -1,0 +1,67 @@
+{
+    "name": "INFA - ImageToWordConverter",
+    "label": "[[label]]",
+    "description": "[[description]]",
+    "group": "com.automationanywhere",
+    "artifactName": "INFA - A360ImageToWordConverter",
+    "packageVersion": "2.0.8-20231002-213948",
+    "codeVersion": "2.0.8-20231002-213948",
+    "author": "",
+    "commands": [
+        {
+            "name": "ImageToWord",
+            "label": "[[Image To Word.label]]",
+            "description": "[[Image To Word.description]]",
+            "nodeLabel": "[[Image To Word.node_label]]",
+            "mainClass": "com.automationanywhere.botcommand.ImageToWordCommand",
+            "icon": "pkg.svg",
+            "returnType": "STRING",
+            "returnSubtype": "UNDEFINED",
+            "returnLabel": "[[Image To Word.return_label]]",
+            "returnRequired": false,
+            "returnDescription": "[[Image To Word.return_label_description]]",
+            "attributes": [
+                {
+                    "name": "sourceFolderPath",
+                    "label": "[[Image To Word.inputFilePath.label]]",
+                    "type": "FILE",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        },
+                        {
+                            "name": "FILE_EXTENSION",
+                            "value": ".jpeg"
+                        },
+                        {
+                            "name": "FILE_EXTENSION",
+                            "value": ".jpg"
+                        },
+                        {
+                            "name": "FILE_EXTENSION",
+                            "value": ".gif"
+                        },
+                        {
+                            "name": "FILE_EXTENSION",
+                            "value": ".png"
+                        },
+                        {
+                            "name": "FILE_EXTENSION",
+                            "value": ".webp"
+                        }
+                    ]
+                },
+                {
+                    "name": "destinationFolderPath",
+                    "label": "[[Image To Word.outputFilePath.label]]",
+                    "type": "FILE",
+                    "rules": [
+                        {
+                            "name": "NOT_EMPTY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

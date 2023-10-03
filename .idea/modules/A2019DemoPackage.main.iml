@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jms:5.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-all:5.15.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-dbcp2:2.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.200" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: :command-annotations:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: :bot-runtime:1.4.0-SNAPSHOT-default" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: :bot-api:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: :common-security:1.0.0-default" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: :i18n-api:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: net.java.dev.jna:jna-platform:5.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:5.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-pool2:2.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:5.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.0.2.RELEASE" level="project" />
+  </component>
+</module>
